@@ -1,0 +1,35 @@
+{
+  "name": "react-timeout-provider",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "author": "beep13",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beep13/react-timeout-provider"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/jest": "^29.5.11",
+    "@types/react": "^18.2.45",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}

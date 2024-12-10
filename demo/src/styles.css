@@ -1,0 +1,51 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.login {
+  text-align: center;
+  padding: 40px;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.demo-actions {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+.timeout-warning {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} 
